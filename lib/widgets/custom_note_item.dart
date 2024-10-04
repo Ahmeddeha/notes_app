@@ -27,7 +27,7 @@ class NoteItem extends StatelessWidget {
               child: Text(
                 'Build Your Carrer With Ahmed Mamdouh',
                 style: TextStyle(
-                    color: Colors.black.withOpacity(0.6), fontSize: 19),
+                    color: Colors.black.withOpacity(0.6), fontSize: 18),
               ),
             ),
             trailing: IconButton(
@@ -37,7 +37,7 @@ class NoteItem extends StatelessWidget {
                 icon: const Icon(
                   Icons.delete,
                   color: Colors.black,
-                  size: 24,
+                  size: 34,
                 ),
               ),
             ),
